@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.container{
+	
+	
+
+}
+/* main wrapper */
+.main-wrapper{
+	
+}
+.wave{
+	position: relative;
+	height: 676px;
+	background: linear-gradient(90deg, #f0027f, #75489f);	
+}
+.wave:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 215px;
+	background: url('https://i.hizliresim.com/y0GZa7.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+.hero-grid{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	
+}
+.hero-text-wrapper{
+	width: 50%;
+	padding-left: 90px;
+	
+}
+.card-title{
+	font-family: verdana;
+	font-size: 30px;
+	color: whitesmoke;
+	font-weight: bold;
+}
+.card-text{
+	font-family: verdana;
+	font-size: 17px;
+	color: whitesmoke;
+	margin-bottom: 30px;
+	
+}
+.btn-cta{
+	color: whitesmoke;
+	font-size: 14px;
+	border: 1px solid white;
+	border-radius: 50px;
+	letter-spacing: 1.5px;
+	font-family: verdana;
+	width: 105px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	
+}
+.btn-cta:hover{
+	color: white;
+	text-decoration: none;
+}
+#office-staff{
+	padding-right: 100px;
+
+}
+.middle-grid{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.middle-image{
+	width: 50%;
+	
+}
+#iso-1{
+	height: 370px;
+	width: 370px;
+}
+.middle-text{
+	width: 500px;
+	margin-left: 80px;
+}
+.main-3{
+	height: 600px;
+}
+.third-grid{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.addon{
+
+	
+}
+.footer-menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: start;
+	background: linear-gradient(70deg, #f0027f, #75489f);
+}
+.column h3 {
+  font-weight: 600;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14.2px;
+  font-family: 'Nunito', sans-serif; 
+}
+
+/*--- Small devices (landscape phones, 576px and less) -------- */
+
+@media (max-width: 576px) {
+.hero-grid, .middle-grid, .third-grid{
+	flex-direction: column;
+	
+}
+.hero-text-wrapper{
+	width: 90%;
+	padding: 0;
+
+}
+
+#office-staff{
+	width: 465px;
+	hieght: 465px;
+
+}
+.middle-text{
+	width: 100%;
+	margin: 0px;
+ }
+}
