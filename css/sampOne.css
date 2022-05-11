@@ -153,13 +153,12 @@ ul li a {
 
 }
 
-#office-staff{
-	width: 465px;
-	hieght: 465px;
+#office-staff, #iso-1, .middle-image{
+	width: 100%;
+	hieght: auto;
 
 }
 .middle-text, .middle-image{
-	width: 100%;
 	margin: 0px;
  }
 }
