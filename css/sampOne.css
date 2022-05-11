@@ -113,7 +113,7 @@ body{
 	background: linear-gradient(70deg, #f0027f, #75489f);
 }
 .column h3 {
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   font-family: 'Nunito', sans-serif;
 }
@@ -147,8 +147,12 @@ body{
 	gap: 2rem;
 	
 }
+.middle-text{
+	width: 100%;
+	margin: 0;
+	}
 .card-text{
-	color: yellow;
+	color: orange;
 }
 .hero-text-wrapper{
 	width: 90%;
