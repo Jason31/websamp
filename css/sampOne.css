@@ -139,6 +139,7 @@ ul li a {
 @media screen and (max-width: 576px)  {
 .hero-grid, .middle-grid, .third-grid{
 	flex-direction: column;
+	width; 100%;
 	
 }
 .card-text{
