@@ -137,10 +137,14 @@ ul li a {
 
 /*--- Small devices (landscape phones, 594px and less) -------- */
 
-@media screen and (max-width: 576px)  {
-.hero-grid, .middle-grid, .third-grid{
-	flex-direction: column;
-	gap: 5rem;
+@media screen and (max-width: 594px)  {
+	.main-wrapper{
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+	
+	}
+.hero-grid, .middle-grid, .third-grid, .footer-menu{
 	flex: 1;
 	
 }
@@ -157,8 +161,5 @@ ul li a {
 	width: 100%;
 	hieght: auto;
 
-}
-.middle-text, .middle-image{
-	margin: 0px;
  }
 }
