@@ -1,13 +1,17 @@
-body{
+*{
 	margin: 0;
 	padding: 0;
-	height: 100%;
+	box-sizing: border-box;
+
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
 	
 }
 /* main wrapper */
 .main-wrapper{
-	width: 100%;
-	
+	width: 100%;	
 }
 .wave{
 	position: relative;
