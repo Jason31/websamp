@@ -132,7 +132,7 @@ ul li a {
 
 /*--- Small devices (landscape phones, 576px and less) -------- */
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 576px)  {
 .hero-grid, .middle-grid, .third-grid{
 	flex-direction: column;
 	
