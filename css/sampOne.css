@@ -142,6 +142,9 @@ ul li a {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+}
+.footer-menu{
+	padding-left: 15px;
 	
 }
 .hero-text-wrapper{
@@ -149,21 +152,17 @@ ul li a {
 	padding: 0;
 }
 #iso-1{
-	height: 350px;
-	width: 350px;
+	height: 320px;
+	width: 320px;
 }
 .middle-text{
 	width: 100%;
 	margin: 0;
-}
-.hero-text-wrapper{
-	width: 90%;
-	padding: 0;
 
 }
 #office-staff{
-       height: 400px;
-	width: 400px;
+       height: 450px;
+	width: 450px;
         padding: 0;
 	margin: 0 auto;
 }
@@ -172,5 +171,5 @@ ul li a {
 	width: 100%;
 	height: auto;
 
- }
+  }
 }
