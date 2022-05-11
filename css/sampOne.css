@@ -6,6 +6,7 @@
 }
 body{
 	width: 100%;
+	overflow-x: hidden;
 	
 }
 /* main wrapper */
@@ -136,14 +137,19 @@ ul li a {
 /*--- Small devices (landscape phones, 594px and less) -------- */
 
 @media screen and (max-width: 594px)  {
-body{
-       overflow-x: hidden;
-}
-		
+	
 .hero-grid, .middle-grid, .third-grid, .footer-menu{
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+	
+}
+.wave{
+	height: auto;
+	
+}
+.wave:before{
+	height: auto;
 	
 }
 .middle-text{
