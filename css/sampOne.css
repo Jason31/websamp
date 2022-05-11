@@ -138,11 +138,7 @@ ul li a {
 /*--- Small devices (landscape phones, 594px and less) -------- */
 
 @media screen and (max-width: 594px)  {
-	.main-wrapper{
-		display: grid;
-		grid-template-rows: 1fr;
 		
-	}
 .hero-grid, .middle-grid, .third-grid, .footer-menu{
 	display: flex;
 	flex-direction: column;
@@ -151,7 +147,7 @@ ul li a {
 	
 }
 .card-text{
-	color: green;
+	color: whitesmoke;
 }
 .hero-text-wrapper{
 	width: 90%;
