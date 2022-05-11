@@ -2,14 +2,11 @@ body{
 	margin: 0;
 	padding: 0;
 	height: 100%;
-}
-.container{
 	
-	
-
 }
 /* main wrapper */
 .main-wrapper{
+	width: 100%;
 	
 }
 .wave{
