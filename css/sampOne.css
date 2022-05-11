@@ -139,17 +139,19 @@ ul li a {
 
 @media screen and (max-width: 594px)  {
 	.main-wrapper{
-		display: flex;
-		flex-direction: column;
-		gap: 5rem;
-	
+		display: grid;
+		grid-template-rows: 1fr;
+		
 	}
 .hero-grid, .middle-grid, .third-grid, .footer-menu{
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
 	flex: 1;
 	
 }
 .card-text{
-	color: brown;
+	color: green;
 }
 .hero-text-wrapper{
 	width: 90%;
