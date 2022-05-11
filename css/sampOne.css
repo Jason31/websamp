@@ -144,13 +144,14 @@ ul li a {
 	gap: 2rem;
 	
 }
-.wave{
-	height: auto;
-	
+.hero-text-wrapper{
+        width: 100%;
+	padding: 0;
 }
-.wave:before{
-	height: auto;
-	
+#iso-1{
+	height: 350px;
+	width: 350px;
+	}
 }
 .middle-text{
 	width: 100%;
@@ -162,7 +163,9 @@ ul li a {
 
 }
 #office-staff{
-       padding: 0;
+       height: 400px;
+	width: 400px;
+        padding: 0;
 	margin: 0 auto;
 }
 
