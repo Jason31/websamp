@@ -112,7 +112,7 @@ body{
 	align-items: start;
 	background: linear-gradient(70deg, #f0027f, #75489f);
 }
-.column h3 {
+.column h4 {
   font-weight: 500;
   color: white;
   font-family: 'Nunito', sans-serif;
@@ -152,8 +152,8 @@ ul li a {
 	padding: 0;
 }
 #iso-1{
-	height: 320px;
-	width: 320px;
+	height: 200px;
+	width: 200px;
 }
 .middle-text{
 	width: 100%;
@@ -161,8 +161,9 @@ ul li a {
 
 }
 #office-staff{
-       height: 450px;
-	width: 450px;
+        height: auto;
+	width: 100%;
+	max-width: 606px;
         padding: 0;
 	margin: 0 auto;
 }
