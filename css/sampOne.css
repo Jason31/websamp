@@ -156,7 +156,7 @@ ul li a {
 	height: 210px;
 }
 .card-text{
-	color: orange;
+	color: pink;
 }
 .fa-plus, .fa-calendar{
 	padding: 0px;
@@ -173,7 +173,7 @@ ul li a {
 #office-staff{
         height: 380px;
 	width: 100%;
-        padding: 0 0 50px 0;
+        margin: 0 0 100px 0;
 	margin: 0 auto;
 }
 #iso-1{
