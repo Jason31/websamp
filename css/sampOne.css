@@ -154,7 +154,10 @@ ul li a {
 }
 .wave:before{
 	height: 210px;
-	}
+}
+.card-text{
+	color: orange;
+}
 .fa-plus, .fa-calendar{
 	padding: 0px;
 }
