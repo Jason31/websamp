@@ -102,9 +102,9 @@ body{
 	justify-content: center;
 	align-content: center;
 }
-.addon{
-
-	
+.fa-plus, .fa-calendar{
+	padding-left: 20px;
+	color: #75489f;	
 }
 .footer-menu{
 	display: flex;
@@ -143,16 +143,13 @@ ul li a {
 	flex-direction: column;
 	gap: 2rem;
 }
-.footer-menu{
-	padding-left: 15px;
-	
-}
-ul li {
-  margin: 2px 0;
-}
 .hero-text-wrapper{
         width: 100%;
 	padding: 0;
+}
+.fa-plus, .fa-calendar{
+	padding: 0px;
+
 }
 .middle-text{
 	width: 100%;
@@ -160,9 +157,9 @@ ul li {
 
 }
 #office-staff{
-        height: 360px;
+        height: 400px;
 	width: 100%;
-        padding: 0 0 20px 0;
+        padding: 0 0 27px 0;
 	margin: 0 auto;
 }
 #iso-1{
@@ -173,6 +170,11 @@ ul li {
 	margin: 0 auto;
 	
 }
-
-
+.footer-menu{
+	padding: 12px 0 0 15px;
+	
+}
+ul li {
+  margin: 2px 0;
+  }
 }
