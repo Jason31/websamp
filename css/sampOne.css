@@ -161,7 +161,7 @@ ul li a {
 	}
 .fa-bars{
 	font-size: 1em;
-	position: absolute;
+	position: relative;
 
 }
 .middle-text{
