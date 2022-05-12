@@ -156,6 +156,9 @@ ul li a {
 	padding: 0px;
 	font-size: 1em;
 }
+	.card-text{
+	color: red;
+	}
 .fa-bars{
 	font-size: 1em;
 	position: absolute;
