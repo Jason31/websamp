@@ -147,9 +147,6 @@ ul li a {
 	padding-left: 15px;
 	
 }
-.card-text{
-	color: pink;
-}
 ul li {
   margin: 2px 0;
 }
@@ -163,9 +160,9 @@ ul li {
 
 }
 #office-staff{
-        height: 320px;
+        height: 360px;
 	width: 100%;
-        padding: 0 0 25px 0;
+        padding: 0 0 20px 0;
 	margin: 0 auto;
 }
 #iso-1{
