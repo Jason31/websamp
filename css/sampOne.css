@@ -148,7 +148,7 @@ ul li a {
 	
 }
 .card-text{
-	color: blue;
+	color: pink;
 }
 ul li {
   margin: 2px 0;
@@ -163,15 +163,15 @@ ul li {
 
 }
 #office-staff{
-        height: 400px;
+        height: 320px;
 	width: 100%;
-        padding: 0;
+        padding: 0 0 25px 0;
 	margin: 0 auto;
 }
 #iso-1{
-	height: 200px;
+	height: 260px;
 	width: 100%;
-	max-width: 200px;
+	max-width: 260px;
         padding: 0;
 	margin: 0 auto;
 	
