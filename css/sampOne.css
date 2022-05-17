@@ -155,9 +155,6 @@ ul li a {
 .wave:before{
 	height: 210px;
 }
-.card-text{
-	color: yellow;
-}
 .fa-plus, .fa-calendar{
 	padding: 0px;
 }
@@ -173,7 +170,7 @@ ul li a {
 #office-staff{
         height: 267px;
 	max-width: 100%;
-	width: 400px;
+	width: 340px;
         padding: 0 0 20px 0;
 	margin: 0 auto;
 }
